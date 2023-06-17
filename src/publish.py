@@ -20,6 +20,7 @@ python3 src/publish.py
 9. The script opens Gmail in a Chrome browser.
 10. The script generates a console sign-in URL for AWS SES and opens it in a web browser.
 '''
+load_dotenv()
 
 region = os.getenv('aws_region')
 
@@ -31,7 +32,6 @@ def get_user_input(prompt):
     return user_input
 
 # load creds
-load_dotenv()
 access_key_id = os.getenv('access_key_id')
 secret_access_key = os.getenv('secret_access_key')
 
