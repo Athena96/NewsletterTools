@@ -74,7 +74,7 @@ lambda_client.update_function_configuration(
         'Variables': newsletter_generator_environment_variables
     }
 )
-print(f"Updated Lambda function '{newsletter_generator_function_name}' to SEND_TEST = 'f{sender_email}'")
+print(f"Updated Lambda function '{newsletter_generator_function_name}' to SEND_TEST = '{sender_email}'")
 
 # define s3 client
 s3_client = boto3.client(

@@ -3,6 +3,7 @@ import webbrowser
 import subprocess
 import sys
 from lib.newsletter import Newsletter
+from dotenv import load_dotenv
 
 '''
 # Usage
@@ -13,6 +14,8 @@ python3 src/create.py <newsletter_number>
 2. open the HTML file in VS code
 3. open the HTML file in Chrome
 '''
+
+load_dotenv()
 
 newsletter = Newsletter()
 
