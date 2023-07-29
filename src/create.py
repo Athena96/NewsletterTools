@@ -65,55 +65,37 @@ html_content = f"""
     <div class="center">
 
 
-        <h1>(emoji) Title 1</h1>
-        <ul>
-            <li>
-                <b><a target="_blank " href="https://link.com">Bullet Title</a></b>:
-                <br/><br/>....
+        <h1><a target="_blank " href="https://link.com">(emoji) Bullet Title</a></h1>
+        <p>
+                paragraph 1
+        </p>
 
-                <br/><br/>.....
-
-                </br>
-                </br>
-
-            </li>
-            <!-- <a target="_blank " href=""></a> -->
-        </ul>
+        <p>
+                paragraph 2
+        </p>
 
 
 
+        <h1><a target="_blank " href="https://link.com">(emoji) Bullet Title</a></h1>
+        <p>
+                paragraph 1
+        </p>
 
-        <h1>(emoji) Title 2</h1>
-        <ul>
-            <li>
-                <b><a target="_blank " href="https://link.com">Bullet Title</a></b>:
-                <br/><br/>....
-
-                <br/><br/>.....
-
-                </br>
-                </br>
-
-            </li>
-            <!-- <a target="_blank " href=""></a> -->
-        </ul>
+        <p>
+                paragraph 2
+        </p>
 
 
 
-        <h1>(emoji) Title 3</h1>
-        <ul>
-            <li>
-                <b><a target="_blank " href="https://link.com">Bullet Title</a></b>:
-                <br/><br/>....
 
-                <br/><br/>.....
+        <h1><a target="_blank " href="https://link.com">(emoji) Bullet Title</a></h1>
+        <p>
+                paragraph 1
+        </p>
 
-                </br>
-                </br>
-
-            </li>
-            <!-- <a target="_blank " href=""></a> -->
-        </ul>
+        <p>
+                paragraph 2
+        </p>
 
         <h3>Quote:</h3>
 
