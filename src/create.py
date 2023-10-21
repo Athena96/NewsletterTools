@@ -57,7 +57,7 @@ html_content = f"""
 <body>
 
     <h1 style="font-size:65px">The Jared Franzone Newsletter #{number}</h1>
-    <p style="color:grey"><b>Friday {newsletter.month}/{newsletter.day}/{newsletter.year}</b> - Seattle, WA - <i>(sent on the last Friday of every
+    <p style="color:grey"><b>Friday {newsletter.month}/{newsletter.day}/{newsletter.year}</b> - Arlington, VA - <i>(sent on the last Friday of every
             month)</i><br /><a target="_blank " href="https://www.jaredfranzone.com/">jaredfranzone.com</a></p>
     <hr>
     </br>
